@@ -1,0 +1,48 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore build directories
+/build/
+/bin/
+/Debug/
+/Release/
+/dist/
+/lib/
+
+# Ignore editor and OS-specific files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Ignore CMake and Makefile generated files
+CMakeCache.txt
+CMakeFiles/
+/Makefile
+cmake_install.cmake
+
+# Ignore codeblocks and Visual Studio files
+*.cbp
+*.code-workspace
+*.vcxproj
+*.vcxproj.user
+*.sln
+*.pdb
+
+# Ignore package manager files (if using Conan or vcpkg)
+conanbuildinfo.*
+vcpkg_installed/
+
+# Ignore test and generated files
+*.test
+*.bak
+*.generated
