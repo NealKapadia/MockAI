@@ -279,7 +279,7 @@ int main()
     srand(time(NULL)); // Seed random number generator
 
     // Prompt for input file name
-    string inputFileName = "merchant.txt";
+    string inputFileName = "tests/input.txt";
 
     // Read input text
     ifstream inputFile(inputFileName.c_str());
@@ -372,7 +372,7 @@ int main()
     }
 
     // Write output to file
-    ofstream outputFile("output.txt");
+    ofstream outputFile("tests/output.txt");
     if (!outputFile)
     {
         cerr << "Error opening output file." << endl;
